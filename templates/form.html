@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Flask</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <p><h1 align="center">Python Flask Display and Cropped image</h1></p>
+            <div class="container">
+                <div class="row">
+    <form method="POST" action="/crop" enctype="multipart/form-data">
+        <p>
+            <label for="size">Size:</label>
+            <input type="text" name="size" id="size" class="form-control">
+        </p>
+      <label for="option">Position:</label>
+      <select id="option" name="option" class="form-control" required>
+        <option value="option1">Top Left</option>
+        <option value="option2">Top Center</option>
+        <option value="option3">Top Right</option>
+        <option value="option4">Center Left</option>
+        <option value="option5">Center</option>
+        <option value="option6">Center Right</option>
+        <option value="option7">Bottom Left</option>
+        <option value="option8">Bottom Center</option>
+        <option value="option9">Bottom Right</option>
+        </select><br />
+        <br>
+      <img src="/static/uploaded_image.jpg" alt="Uploaded Image" /><br>
+      
+      <input type="submit" value="Crop" class="bnt btn-info"/>
+    </form>
+    <br>
+    <form method="post" action="/" enctype="multipart/form-data">
+        <dl>
+            <p>
+                <input type="file" name="file" autocomplete="off" class="form-control-file border" required>
+            </p>
+        </dl>
+        <p>
+            <input type="submit" value="Submit" class="btn btn-info">
+        </p>
+        </form>
+ </div>
+</div>
+</div>
+  </body>
+</html>

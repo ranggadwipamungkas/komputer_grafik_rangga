@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <p><h1 align="center">Python Flask Upload, display and cropped image</h1></p>
+    <div class="container">
+        <div class="row">
+        <form method="POST" action="/upload" enctype="multipart/form-data">
+            <label for="file-upload" class="custom-file-upload" required>
+            </label>
+            <br>
+            <br>
+            <input type="file" name="image" id="file-upload">
+            <input type="submit" value="Upload" class="btn btn-info">
+        </br>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
