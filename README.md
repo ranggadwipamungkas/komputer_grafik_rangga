@@ -10,7 +10,7 @@ Pertama-tama upload gambar dari halaman di atas. Setelah itu pilih file gambar b
 ![image-2](https://github.com/ranggadwipamungkas/komputer_grafik_rangga/assets/88016043/43a785e0-f29a-47f0-b7ab-1fb13bd2365b)
 
 lalu masukkan size, dan memilih posisi gambar sesuai option yang ada.
-![image-2](https://github.com/ranggadwipamungkas/komputer_grafik_rangga/assets/88016043/43a785e0-f29a-47f0-b7ab-1fb13bd2365b)
+![image-4](https://github.com/ranggadwipamungkas/komputer_grafik_rangga/assets/88016043/5913a70d-85c7-4cb3-b64f-964a0415b260)
 
 Akan tampil gambar sesuai dengan posisi dan ukurannya.
 ![image-3](https://github.com/ranggadwipamungkas/komputer_grafik_rangga/assets/88016043/19ec746c-bf5e-4447-b18f-951c1dab9d86)
